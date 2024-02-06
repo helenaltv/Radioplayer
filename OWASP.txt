@@ -1,0 +1,36 @@
+1. OWASP står för Open Web Application Security Project. 
+De sysslar med säkerheten, hanterar sårbarheter och hot för webbapplikationer. 
+Det primära uppdraget för OWASP är att öka medvetenheten om webbapplikationssäkerhet, 
+drift och underhåll av webbapplikationer. 
+deras material är fritt tillgängligt och lättillgängligt på deras webbplats, också
+har de verktyg, videor och forum. Det ökar möjligt för alla att förbättra sin egen webbapplikationssäkerhet.
+
+2. Injektionsattacker inträffar när opålitligt data skickas till en kodtolkare genom en 
+formulärinmatning eller någon annan datainlämning till en webbapplikation.
+Angripare kan ange SQL-databaskod i ett formulär som förväntar sig ett användarnamn i klartext. 
+Om den formulärinmatningen inte är ordentligt säker, skulle detta resultera i att SQL-koden 
+exekveras.
+
+3. Man kan använda starka autentiseringsmetoder, såsom flerfaktorautentisering, 
+för att skydda användares konton. 
+Använda verktyg för sårbarhetsskanning för att upptäcka kända 
+sårbarheter och brister i systemmet.
+
+4. Osäker avserialisering är en sårbarhet som kan ha allvarliga konsekvenser 
+för webbapplikationers säkerhet. 
+Angriparen kan utnyttja osäker avserialisering för att injicera skadlig kod på servern. 
+Genom att manipulera avserialiseringsprocessen kan angripare orsaka överbelastning 
+eller krasch i applikationen.
+Som utvecklare kan man begränsa vilka typer av data och strukturer 
+som tillåts, filtrera data och att förhindra användningen av opålitliga källor.
+
+Använda den senaste versionen av ramverk och hållea dem uppdaterade med de senaste 
+säkerhetskorrigeringarna. 
+
+5. Cross-Site Scripting (XSS) är en sårbarhet där angripare injicerar och kör 
+kadlig kod på webbsidor. 
+För att förhindra det börde man använda input validering och output encoding 
+för att filtrera och koda användardata.
+Implementera en Content Security Policy (CSP) för att begränsa laddning av externt 
+innehåll och förhindra XSS-attacker.
+
